@@ -12,4 +12,5 @@ usage
 * edit build.sh file to build your kll
 * % ./build.sh
  
-
+if you want to build firmware with custom kll files, just edit in/ folder and run ./build.sh script (outside vm)
+if you want to modify source codes, you can use "vagrant ssh" to go inside vm and edit source.
