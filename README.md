@@ -6,7 +6,7 @@ this is my vagrant file to develop kiibohd controller. [https://github.com/kiibo
 usage
 
 * in cygwin bash (or git bash)
-* % git clone https://github.com/dirty49374/kiibohd-dev-vagrant
+* % git clone https://github.com/dirty49374/kiibohd-dev-vagrant.git
 * edit repo url of Vagrantfile to pointing your repo.
 * % vagrant up
 * edit build.sh file to build your kll
