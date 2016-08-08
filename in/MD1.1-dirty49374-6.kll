@@ -14,6 +14,7 @@ U"2" : recordingControl(0, 1);
 U"3" : recordingControl(0, 2);
 U"4" : recordingControl(0, 3);
 U"5" : recordingControl(0, 4);
+U"BACKTICK" : CONS"POWER";
 
 U"W" : flashMode();
 U"A" : ledControl( 3, 15, 0 );
