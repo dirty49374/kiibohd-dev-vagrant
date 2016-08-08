@@ -11,6 +11,8 @@ vagrant ssh << EOF
 	cp -rf MD11_DIRTY49374.gcc ~/out
 
 	rm MD1.1-dirty49374.bash
+	rm MD1.1-Standard.bash
+
 	rm -rf MD11_DIRTY49374.gcc
 EOF
 

@@ -7,6 +7,7 @@ KLL = "0.3";
 Date = "2014-09-14";
 Generator = "KIICONF 0.2";
 
+
 #U"ESC" : U"ESC";
 U"1" : recordingControl(0, 0);
 U"2" : recordingControl(0, 1);
@@ -19,9 +20,9 @@ U"A" : ledControl( 3, 15, 0 );
 U"S" : ledControl( 4, 15, 0 );
 U"D" : ledControl( 5, 0, 0 );
 
-#U"J" : ledLayer(0, 0, 0, 0);
-U"K" : ledLayer(1, 1, 20, 255);
-U"L" : ledLayer(1, 1, 20, 0);
+U"J" : ledPressAnimation(0);
+U"K" : ledPressAnimation(1);
+U"L" : ledPressAnimation(2);
 
 U"Z" : CONS"VOLUMEDOWN";
 U"X" : CONS"VOLUMEUP";
