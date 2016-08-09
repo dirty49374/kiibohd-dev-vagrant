@@ -21,7 +21,7 @@ BaseMap="scancode_map"
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="MD1.1-dirty49374-0 stdFuncMap"
+DefaultMap="MD1.1-dirty49374-0 MD1.1-dirty49374-base"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -29,13 +29,13 @@ DefaultMap="MD1.1-dirty49374-0 stdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="MD1.1-dirty49374-1 stdFuncMap"
-PartialMaps[2]="MD1.1-dirty49374-2 stdFuncMap"
-PartialMaps[3]="MD1.1-dirty49374-3 stdFuncMap"
-PartialMaps[4]="MD1.1-dirty49374-4 stdFuncMap"
-PartialMaps[5]="MD1.1-dirty49374-5 stdFuncMap"
-PartialMaps[6]="MD1.1-dirty49374-6 stdFuncMap"
-PartialMaps[7]="MD1.1-dirty49374-7 stdFuncMap"
+PartialMaps[1]="MD1.1-dirty49374-1 MD1.1-dirty49374-base"
+PartialMaps[2]="MD1.1-dirty49374-2 MD1.1-dirty49374-base"
+PartialMaps[3]="MD1.1-dirty49374-3 MD1.1-dirty49374-base"
+PartialMaps[4]="MD1.1-dirty49374-4 MD1.1-dirty49374-base"
+PartialMaps[5]="MD1.1-dirty49374-5 MD1.1-dirty49374-base"
+PartialMaps[6]="MD1.1-dirty49374-6 MD1.1-dirty49374-base"
+PartialMaps[7]="MD1.1-dirty49374-7 MD1.1-dirty49374-base"
 
 
 
