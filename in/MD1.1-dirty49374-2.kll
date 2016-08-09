@@ -37,7 +37,7 @@ U"O" : None;
 U"P" : U"INSERT";
 U"LBRACE" : U"UP";
 U"RBRACE" : U"DELETE";
-U"BACKSPACE" : None;
+U"BACKSPACE" : U"DELETE";
 
 # ROW3
 #U"LCTRL" : None;
