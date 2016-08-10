@@ -7,6 +7,7 @@ KLL = "0.3";
 Date = "2014-09-14";
 Generator = "KIICONF 0.2";
 
+# ROW1
 U"1" : U"F1";
 U"2" : U"F2";
 U"3" : U"F3";
@@ -21,6 +22,8 @@ U"MINUS" : U"F11";
 U"EQUAL" : U"F12";
 U"BACKSLASH" : U"INSERT";
 U"BACKTICK" : U"DELETE";
+
+# ROW2
 U"TAB" : U"CAPSLOCK";
 U"U" : U"PRINTSCREEN";
 U"I" : U"SCROLLLOCK";
@@ -29,15 +32,19 @@ U"P" : U"INSERT";
 U"LBRACE" : U"UP";
 U"RBRACE" : U"DELETE";
 U"BACKSPACE" : U"DELETE";
+
+# ROW3
 U"H" : U"P*";
 U"J" : U"P/";
 U"K" : U"HOME";
 U"L" : U"PAGEUP";
 U"SEMICOLON" : U"LEFT";
 U"QUOTE" : U"RIGHT";
+
+# ROW4
 U"N" : U"P+";
 U"M" : U"P-";
 U"COMMA" : U"END";
 U"PERIOD" : U"PAGEDOWN";
 U"SLASH" : U"DOWN";
-U"Q" : U"1";
+
