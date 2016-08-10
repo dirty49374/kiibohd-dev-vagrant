@@ -27,7 +27,7 @@ U"D" : ledControl( 5, 0, 0 );
 U"J" : ledPressAnimation(0);
 U"K" : ledPressAnimation(1);
 U"L" : ledPressAnimation(2);
-U";" : ledPressAnimation(3);
+U";" : ledPressAnimation(255);
 
 # ROW4
 U"Z" : CONS"VOLUMEDOWN";
