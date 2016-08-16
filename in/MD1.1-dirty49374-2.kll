@@ -34,9 +34,9 @@ U"Y" : None;
 U"U" : None;
 U"I" : U"PAGEUP";
 U"O" : None;
-U"P" : U"INSERT";
+U"P" : U"LSHIFT" + U"INSERT";
 U"LBRACE" : U"UP";
-U"RBRACE" : U"DELETE";
+U"RBRACE" : U"LSHIFT" + U"DELETE";
 U"BACKSPACE" : U"DELETE";
 
 # ROW3

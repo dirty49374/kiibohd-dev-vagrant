@@ -18,6 +18,7 @@ U"5" : recordingControl(0, 4);
 U"BACKTICK" : CONS"POWER";
 
 # ROW2
+U"TAB" : layerLock(4);
 U"W" : flashMode();
 U"A" : ledControl( 3, 15, 0 );
 U"S" : ledControl( 4, 15, 0 );
