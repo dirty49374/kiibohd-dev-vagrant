@@ -75,7 +75,7 @@ U"FUNCTION2" : layerShift(2) + ledGuide(0xfb3f, 0x5c00, 0x5c00, 0x1800, 0x0000);
 U"LALT" : U"LGUI" + ledPress(4,1);
 U"LGUI" : U"LALT" + ledPress(4,2);
 #U"SPACE" : U"SPACE";
-U"SPACE" : layerShift(5) + pressOnUniqueRelease(0x2C);
+U"SPACE" : layerShift(5) + pressOnUniqueRelease(0x2C, 200);
 U"RGUI" : U"한/영";
 U"RALT" : layerShift(2) + ledGuide(0xfb3f, 0x5c00, 0x5c00, 0x1800, 0x0000);
 U"FUNCTION3" : layerShift(6) + ledGuide(0x013e, 0x0010, 0xf038, 0x003c, 0x0000);

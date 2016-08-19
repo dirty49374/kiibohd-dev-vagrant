@@ -9,7 +9,7 @@ Generator = "KIICONF 0.2";
 
 
 # ROW1
-#U"ESC" : U"ESC";
+U"ESC" : pressOnUniqueRelease(0xff, 0); # for ignoring unintented space input
 U"1" : U"F1";
 U"2" : U"F2";
 U"3" : U"F3";
@@ -32,11 +32,11 @@ U"W" : None;
 U"E" : U"ESC";
 U"R" : None;
 U"T" : None;
-U"Y" : U"INSERT";
-U"U" : U"HOME";
-U"I" : U"UP";
-U"O" : U"END";
-U"P" :  U"PAGEUP";
+U"Y" : None;
+U"U" : U"INSERT";
+U"I" : U"HOME";
+U"O" : U"PAGEUP";
+U"P" : None;
 U"LBRACE" : U"BACKSPACE";
 U"RBRACE" : U"DELETE";
 #U"BACKSPACE" : U"BACKSPACE";
@@ -48,13 +48,13 @@ U"S" : None;
 #U"D" : U"PRINTSCREEN";
 #U"F" : U"SCROLLLOCK";
 #U"G" : U"PAUSE";
-U"H" : U"DELETE";
-U"J" : U"LEFT";
-U"K" : U"DOWN";
+U"H" : U"LEFT";
+U"J" : U"DOWN";
+U"K" : U"UP";
 U"L" : U"RIGHT";
 U"SEMICOLON" : U"PAGEDOWN";
 U"QUOTE" : None;
-U"ENTER" : pressOnUniqueRelease(0xff); # for ignoring unintented space input
+U"ENTER" : U"ENTER";
 
 # ROW4
 #U"LSHIFT" : None;
@@ -64,9 +64,9 @@ U"C" : U"LCTRL" + U"C";
 U"V" : U"LCTRL" + U"V";
 U"B" : U"SPACE";
 U"N" : None;
-U"M" : U"BACKTICK";
-U"COMMA" : '~';
-U"PERIOD" : None;
+U"M" : U"DELETE";
+U"COMMA" : U"END";
+U"PERIOD" : U"PAGEDOWN";
 U"SLASH" : None;
 #U"RSHIFT" : None;
 U"FUNCTION1" : None;
