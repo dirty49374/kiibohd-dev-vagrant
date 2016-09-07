@@ -72,7 +72,7 @@ U"SLASH" : None;
 U"FUNCTION1" : None;
 
 # ROW5
-U"FUNCTION2" : None;
+#U"FUNCTION2" : None;
 #U"LALT" : None;
 #U"LGUI" : None;
 U"SPACE" : None;

@@ -36,3 +36,5 @@ U"X" : CONS"VOLUMEUP";
 U"C" : CONS"MUTE";
 U"V" : CONS"EJECT";
 
+# ROW5
+U"SPACE": toggleSpaceFn();
